@@ -111,6 +111,7 @@ class LoginView extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
+                    // Navigator.pushReplacementNamed(context, "/homeView");
                     if (_formKey.currentState.validate()) {
                       _loginController.apiLogin();
                     }
